@@ -291,6 +291,20 @@ hr.small {
     opacity: 0.8;
 }
 
+#project-hover {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 1.4em;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.portfolio-item:hover #project-hover {
+  display: block;
+}
+
+
+
 /* Call to Action */
 
 .call-to-action {
