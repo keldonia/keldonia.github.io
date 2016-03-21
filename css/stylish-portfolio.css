@@ -281,6 +281,7 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    position: relative;
 }
 
 .img-portfolio {
@@ -291,16 +292,26 @@ hr.small {
     opacity: 0.8;
 }
 
+
 #project-hover {
-  border: 1px solid #ccc;
-  display: none;
+  background: rgba(202,202,202,0.7);
   font-size: 1.4em;
-  margin-top: 10px;
+  margin: auto;
+  top: 0;
   padding: 5px;
+  position: absolute;
+  display: table;
+  opacity: 0;
+}
+
+#project-hover span {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .portfolio-item:hover #project-hover {
-  display: block;
+  opacity: 1;
 }
 
 
