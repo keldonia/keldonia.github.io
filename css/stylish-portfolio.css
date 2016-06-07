@@ -242,6 +242,30 @@ hr.small {
   background-size: contain;
 }
 
+.devicon-docker-plain-wordmark {
+  font-size: 8em;
+  margin: auto;
+  background-size: contain;
+}
+
+.devicon-angularjs-plain-wordmark {
+  font-size: 8em;
+  margin: auto;
+  background-size: contain;
+}
+
+.devicon-python-plain-wordmark {
+  font-size: 8em;
+  margin: auto;
+  background-size: contain;
+}
+
+.devicon-java-plain-wordmark {
+  font-size: 8em;
+  margin: auto;
+  background-size: contain;
+}
+
 .white {
   color: white;
 }
